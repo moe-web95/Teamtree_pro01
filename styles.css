@@ -1,8 +1,8 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
@@ -61,7 +61,7 @@ a:hover {
   overflow: hidden;
   margin-top: 90px;
   /*margin-bottom:10px;*/
-} 
+}
 aside{
 font-size: 15px;
 color:black;
@@ -95,7 +95,7 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
 .location {
   background-color: #222;
   color: yellow;
@@ -129,7 +129,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: 
+  background:
   #0399ff;
 }
 
@@ -182,10 +182,10 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -215,6 +215,6 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
- 
 
 
+}
